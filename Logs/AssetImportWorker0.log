@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1110; Version 2009; 64bit' Language: 'ru' Physical Memory: 16335 MB
+OS: 'Windows 10 Pro Education; OS build 18363.1556; Version 1909; 64bit' Language: 'ru' Physical Memory: 8087 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/GD/GitHub/ShadersLearn
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49823
+58064
 Successfully changed project path to: C:/GD/GitHub/ShadersLearn
 C:/GD/GitHub/ShadersLearn
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 112.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -27,15 +27,15 @@ Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
     Vendor:   
-    VRAM:     8088 MB
-    Driver:   27.21.14.5671
+    VRAM:     4043 MB
+    Driver:   27.20.100.8854
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -43,41 +43,41 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.003159 seconds.
+Registered in 0.004615 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 32.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.368 seconds
+- Completed reload, in  7.056 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003510 seconds.
+Registered in 0.007603 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.974 seconds
+- Completed reload, in  3.190 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.4 MB.
-System memory in use after: 65.5 MB.
+Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.0 MB.
+System memory in use after: 66.0 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1822.
-Total: 1.709400 ms (FindLiveObjects: 0.163200 ms CreateObjectMapping: 0.043900 ms MarkObjects: 1.440700 ms  DeleteObjects: 0.060300 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1829.
+Total: 3.419400 ms (FindLiveObjects: 0.260600 ms CreateObjectMapping: 0.226300 ms MarkObjects: 2.814500 ms  DeleteObjects: 0.116000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -91,90 +91,50 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/HelloShader.mat
-  artifactKey: Guid(ba0158cb3e90b40a998507011a60bad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HelloShader.mat using Guid(ba0158cb3e90b40a998507011a60bad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93d3c8b4187664457b6f7afb54e1729') in 0.309204 seconds 
-  Import took 0.311450 seconds .
+  path: Assets/Vol_35_3_Base_Color 1.tga
+  artifactKey: Guid(ed079d4d7c39b5844b6ddac367b5d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vol_35_3_Base_Color 1.tga using Guid(ed079d4d7c39b5844b6ddac367b5d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906c6f964308f26b340d6923afa1ab94') in 0.128485 seconds 
+  Import took 0.132166 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Zombunny.prefab
-  artifactKey: Guid(09df32d15510946c1bd4325af6219685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombunny.prefab using Guid(09df32d15510946c1bd4325af6219685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b068b3dd1bcf3af26e2e9c13d126eebe') in 0.024107 seconds 
-  Import took 0.026089 seconds .
+  Time since last request: 0.000657 seconds.
+  path: Assets/Vol_35_3_Emissive 1.tga
+  artifactKey: Guid(a13ed5fad18586e49993d8391e8b742c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vol_35_3_Emissive 1.tga using Guid(a13ed5fad18586e49993d8391e8b742c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781d5d9e157aba1e3c5536cdcba7b383') in 0.098461 seconds 
+  Import took 0.104071 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Zombunny.fbx
-  artifactKey: Guid(8d5d219e0922649ebad407ab0e56b446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombunny.fbx using Guid(8d5d219e0922649ebad407ab0e56b446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d0d3823a2cccccfafd74ec5d935f44') in 0.059770 seconds 
-  Import took 0.061654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.608415 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(48cbc5deefd70da43a80eb36772e06c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(48cbc5deefd70da43a80eb36772e06c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d083d8f1225b1c1d48726a90be1b2c') in 0.005585 seconds 
-  Import took 0.007748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008121 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(48cbc5deefd70da43a80eb36772e06c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(48cbc5deefd70da43a80eb36772e06c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d083d8f1225b1c1d48726a90be1b2c') in 0.001899 seconds 
-  Import took 0.003990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.678882 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e64377c788e4964b7c5f3b651d2f006') in 0.006479 seconds 
-  Import took 0.008754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.615162 seconds.
-  path: Assets/SecondShader.shader
-  artifactKey: Guid(c05f752e92f28c44fb8f348feaa5e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SecondShader.shader using Guid(c05f752e92f28c44fb8f348feaa5e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d9aef19883d6560281b21aa769a6b9') in 0.009453 seconds 
-  Import took 0.011612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.428287 seconds.
-  path: Assets/SecondShader.shader
-  artifactKey: Guid(c05f752e92f28c44fb8f348feaa5e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SecondShader.shader using Guid(c05f752e92f28c44fb8f348feaa5e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d9aef19883d6560281b21aa769a6b9') in 0.003990 seconds 
-  Import took 0.008197 seconds .
+  Time since last request: 0.000099 seconds.
+  path: Assets/SecondTest.mat
+  artifactKey: Guid(66709290e3e417f4cbdab103f5e8aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SecondTest.mat using Guid(66709290e3e417f4cbdab103f5e8aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda58ca0c017b6ef340f321cd5ed07e1') in 0.419621 seconds 
+  Import took 0.423644 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003586 seconds.
+Registered in 0.051937 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.890 seconds
+- Completed reload, in  1.254 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.9 MB.
-System memory in use after: 69.0 MB.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.2 MB.
+System memory in use after: 69.2 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1876.
-Total: 1.620300 ms (FindLiveObjects: 0.112900 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.461200 ms  DeleteObjects: 0.013000 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1873.
+Total: 2.606000 ms (FindLiveObjects: 0.175000 ms CreateObjectMapping: 0.058400 ms MarkObjects: 2.290800 ms  DeleteObjects: 0.080200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -188,202 +148,1501 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 664.682944 seconds.
+  Time since last request: 462.509149 seconds.
   path: Assets/SecondShader.shader
   artifactKey: Guid(c05f752e92f28c44fb8f348feaa5e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SecondShader.shader using Guid(c05f752e92f28c44fb8f348feaa5e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cb06c84109a7be73a9ef9b3bfbe46f') in 0.012042 seconds 
-  Import took 0.016933 seconds .
+Start importing Assets/SecondShader.shader using Guid(c05f752e92f28c44fb8f348feaa5e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467e76913551547af976e13f625bc16e') in 0.035542 seconds 
+  Import took 0.039726 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.915078 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.008476 seconds 
-  Import took 0.011524 seconds .
+  Time since last request: 3.713785 seconds.
+  path: Assets/SecondShader.shader
+  artifactKey: Guid(c05f752e92f28c44fb8f348feaa5e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SecondShader.shader using Guid(c05f752e92f28c44fb8f348feaa5e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467e76913551547af976e13f625bc16e') in 0.005680 seconds 
+  Import took 0.012543 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.559600 seconds.
-  path: Assets/SecondTest.mat
-  artifactKey: Guid(66709290e3e417f4cbdab103f5e8aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SecondTest.mat using Guid(66709290e3e417f4cbdab103f5e8aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ea19a8eeb17125851291edfa1be58c') in 0.051677 seconds 
-  Import took 0.053907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.725676 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(827a23492bab23e49a9152372d9dcb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(827a23492bab23e49a9152372d9dcb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7374113088ce19c1e63ae43d33e620') in 0.006345 seconds 
-  Import took 0.008668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.082250 seconds.
-  path: Assets/Materials/lambert2.mat
-  artifactKey: Guid(0ba7f793da9165f459a403af679533bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/lambert2.mat using Guid(0ba7f793da9165f459a403af679533bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd49a29e5d6bcc7a00980b3b10ae9a8f') in 0.025788 seconds 
-  Import took 0.030800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.891346 seconds.
-  path: Assets/New GUISkin.guiskin
-  artifactKey: Guid(a87f09d6bcb013d4faa48bd4c4aeb66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New GUISkin.guiskin using Guid(a87f09d6bcb013d4faa48bd4c4aeb66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f4ebcbf2979a05e24c9d960bfc2370') in 0.016177 seconds 
-  Import took 0.018495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011979 seconds.
-  path: Assets/New GUISkin.guiskin
-  artifactKey: Guid(a87f09d6bcb013d4faa48bd4c4aeb66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New GUISkin.guiskin using Guid(a87f09d6bcb013d4faa48bd4c4aeb66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f4ebcbf2979a05e24c9d960bfc2370') in 0.003443 seconds 
-  Import took 0.005536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 348.363455 seconds.
-  path: Assets/SecondTest.mat
-  artifactKey: Guid(66709290e3e417f4cbdab103f5e8aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SecondTest.mat using Guid(66709290e3e417f4cbdab103f5e8aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1acfaa8677b95a2f49127f77556cf6af') in 0.175272 seconds 
-  Import took 0.177772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.513649 seconds.
-  path: Assets/Stylized Lava Texture
-  artifactKey: Guid(aa128d808ee29f540bb470f1779c0d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture using Guid(aa128d808ee29f540bb470f1779c0d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee61438f010a141246063665f69af35') in 0.006557 seconds 
-  Import took 0.008851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000880 seconds.
-  path: Assets/Stylized Lava Texture
-  artifactKey: Guid(aa128d808ee29f540bb470f1779c0d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture using Guid(aa128d808ee29f540bb470f1779c0d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee61438f010a141246063665f69af35') in 0.002098 seconds 
-  Import took 0.004312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.733765 seconds.
-  path: Assets/Stylized Lava Texture/Textures
-  artifactKey: Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures using Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95989f510de77030a5ede8cd9992586e') in 0.005960 seconds 
-  Import took 0.008247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Stylized Lava Texture/Textures
-  artifactKey: Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures using Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95989f510de77030a5ede8cd9992586e') in 0.002068 seconds 
-  Import took 0.004290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.058909 seconds.
+  Time since last request: 68.140142 seconds.
   path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Ambient_Occlusion.tga
   artifactKey: Guid(c6d0d08a7a14a45418caf59d9687df8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Ambient_Occlusion.tga using Guid(c6d0d08a7a14a45418caf59d9687df8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3a737c49d94beba295a360cba2f416') in 0.029126 seconds 
-  Import took 0.031152 seconds .
+Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Ambient_Occlusion.tga using Guid(c6d0d08a7a14a45418caf59d9687df8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8adac62f04815a617f8bbb78c8b9727') in 0.046853 seconds 
+  Import took 0.052259 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000270 seconds.
+  Time since last request: 0.000248 seconds.
   path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Normal.tga
   artifactKey: Guid(6d3280b47426c8a4e89df1eabd45c33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Normal.tga using Guid(6d3280b47426c8a4e89df1eabd45c33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4197d123706261d4bb5c2fd296d5e5c3') in 0.024505 seconds 
-  Import took 0.026350 seconds .
+Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Normal.tga using Guid(6d3280b47426c8a4e89df1eabd45c33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8be63db583d9ec67477440fa16f1e33') in 0.078262 seconds 
+  Import took 0.085098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Base_Color.tga
+  artifactKey: Guid(dfc1785e05281294d878cde6894aa955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Base_Color.tga using Guid(dfc1785e05281294d878cde6894aa955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af66c5d52e5433c8139605c7f7e6a200') in 0.057138 seconds 
+  Import took 0.061673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Height.tga
+  artifactKey: Guid(b54216825a0a75045ae1d36295ceecd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Height.tga using Guid(b54216825a0a75045ae1d36295ceecd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68aba52a671bde68273cfe551c671d58') in 0.059688 seconds 
+  Import took 0.062723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Roughness.tga
+  artifactKey: Guid(ee6d998e65365904ba2f9fa70273b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Roughness.tga using Guid(ee6d998e65365904ba2f9fa70273b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ea7d4070cd9c586fa1c6d012cbeb3a') in 0.041366 seconds 
+  Import took 0.045033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Emissive.tga
+  artifactKey: Guid(fa33609267bcdfb41ac03c9fd4b56b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Emissive.tga using Guid(fa33609267bcdfb41ac03c9fd4b56b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fca40f5a165249f2a24111674a803f') in 0.056576 seconds 
+  Import took 0.063414 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019868 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.417 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.2 MB.
+System memory in use after: 69.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1878.
+Total: 2.784500 ms (FindLiveObjects: 0.191300 ms CreateObjectMapping: 0.148500 ms MarkObjects: 2.372200 ms  DeleteObjects: 0.071300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 289.418660 seconds.
+  path: Assets/SecondShader.shader
+  artifactKey: Guid(c05f752e92f28c44fb8f348feaa5e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SecondShader.shader using Guid(c05f752e92f28c44fb8f348feaa5e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb927bf1070463c238756298082e609') in 0.021733 seconds 
+  Import took 0.025989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010797 seconds.
+  path: Assets/SecondShader.shader
+  artifactKey: Guid(c05f752e92f28c44fb8f348feaa5e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SecondShader.shader using Guid(c05f752e92f28c44fb8f348feaa5e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb927bf1070463c238756298082e609') in 0.005356 seconds 
+  Import took 0.010110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.181290 seconds.
+  path: Assets/SecondTest.mat
+  artifactKey: Guid(66709290e3e417f4cbdab103f5e8aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SecondTest.mat using Guid(66709290e3e417f4cbdab103f5e8aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3533d3c1262b0e63c0fe61986186840c') in 0.147048 seconds 
+  Import took 0.151799 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006233 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.140 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.3 MB.
+System memory in use after: 69.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1882.
+Total: 6.137200 ms (FindLiveObjects: 0.414700 ms CreateObjectMapping: 0.143200 ms MarkObjects: 5.347200 ms  DeleteObjects: 0.227000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 173.715571 seconds.
+  path: Assets/SecondTest.mat
+  artifactKey: Guid(66709290e3e417f4cbdab103f5e8aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SecondTest.mat using Guid(66709290e3e417f4cbdab103f5e8aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d5fd92addcde6ff43ec934c7d81504') in 0.290861 seconds 
+  Import took 0.301997 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003768 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.337 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.3 MB.
+System memory in use after: 69.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1886.
+Total: 2.566000 ms (FindLiveObjects: 0.199100 ms CreateObjectMapping: 0.052400 ms MarkObjects: 2.230800 ms  DeleteObjects: 0.082600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004015 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.285 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.3 MB.
+System memory in use after: 69.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1889.
+Total: 2.879600 ms (FindLiveObjects: 0.212300 ms CreateObjectMapping: 0.072600 ms MarkObjects: 2.515800 ms  DeleteObjects: 0.077600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1446.361515 seconds.
+  path: Assets/Stylized Lava Texture
+  artifactKey: Guid(aa128d808ee29f540bb470f1779c0d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture using Guid(aa128d808ee29f540bb470f1779c0d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e50f52b3e560364129d01aaee09f22') in 0.023046 seconds 
+  Import took 0.027505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.640159 seconds.
+  path: Assets/Stylized Lava Texture/Textures
+  artifactKey: Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures using Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb6bda242ca97074066a18f8962231d') in 0.017655 seconds 
+  Import took 0.023470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4078.201721 seconds.
+  path: Assets/SecondShader.shader
+  artifactKey: Guid(c05f752e92f28c44fb8f348feaa5e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SecondShader.shader using Guid(c05f752e92f28c44fb8f348feaa5e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbea5cf2d98ca987c01b6f3f82b3fe40') in 0.200755 seconds 
+  Import took 0.299526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.549240 seconds.
+  path: Assets/SecondTest.mat
+  artifactKey: Guid(66709290e3e417f4cbdab103f5e8aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SecondTest.mat using Guid(66709290e3e417f4cbdab103f5e8aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8389156b8e8bc428b918a7cb2a00ae58') in 0.314473 seconds 
+  Import took 0.320821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/SecondShader 1.shader
+  artifactKey: Guid(e90559312eb38864aa1e717416a7a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SecondShader 1.shader using Guid(e90559312eb38864aa1e717416a7a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6402fbe5f68391fd6ee4a4cd83bb2b') in 0.055694 seconds 
+  Import took 0.060524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000703 seconds.
+  path: Assets/SecondShader 1.shader
+  artifactKey: Guid(e90559312eb38864aa1e717416a7a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SecondShader 1.shader using Guid(e90559312eb38864aa1e717416a7a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6402fbe5f68391fd6ee4a4cd83bb2b') in 0.010311 seconds 
+  Import took 0.014794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.026104 seconds.
+  path: Assets/SecondShader 1.shader
+  artifactKey: Guid(e90559312eb38864aa1e717416a7a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SecondShader 1.shader using Guid(e90559312eb38864aa1e717416a7a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f149c379259fdec1fe91e0400affa2b0') in 0.010622 seconds 
+  Import took 0.016105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.637079 seconds.
+  path: Assets/RimLight.shader
+  artifactKey: Guid(e90559312eb38864aa1e717416a7a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RimLight.shader using Guid(e90559312eb38864aa1e717416a7a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfcef1311d4f593e21fb405be4c44c8') in 0.019508 seconds 
+  Import took 0.024879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.827158 seconds.
+  path: Assets/RimLight.shader
+  artifactKey: Guid(e90559312eb38864aa1e717416a7a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RimLight.shader using Guid(e90559312eb38864aa1e717416a7a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf3315a9442911d7635b6de846fb765') in 0.020188 seconds 
+  Import took 0.028816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.163375 seconds.
+  path: Assets/Rim.mat
+  artifactKey: Guid(bc8a2f9fcc380f347bb7344fc06f3ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rim.mat using Guid(bc8a2f9fcc380f347bb7344fc06f3ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fda3036af1dac95885122aa98bd7a7') in 0.050461 seconds 
+  Import took 0.055791 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007940 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.945 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.8 MB.
+System memory in use after: 69.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1893.
+Total: 2.878300 ms (FindLiveObjects: 0.253800 ms CreateObjectMapping: 0.082600 ms MarkObjects: 2.118700 ms  DeleteObjects: 0.421800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 980.119482 seconds.
+  path: Assets/Rim.mat
+  artifactKey: Guid(bc8a2f9fcc380f347bb7344fc06f3ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rim.mat using Guid(bc8a2f9fcc380f347bb7344fc06f3ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55c49f18954a26ad6ee94b847f7948f') in 0.601488 seconds 
+  Import took 0.608128 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013505 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.829 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.8 MB.
+System memory in use after: 69.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1898.
+Total: 15.635600 ms (FindLiveObjects: 1.063200 ms CreateObjectMapping: 0.304600 ms MarkObjects: 14.111700 ms  DeleteObjects: 0.152900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006291 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.357 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.7 MB.
+System memory in use after: 69.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1901.
+Total: 2.518900 ms (FindLiveObjects: 0.184200 ms CreateObjectMapping: 0.056700 ms MarkObjects: 2.197700 ms  DeleteObjects: 0.078600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3398.345349 seconds.
+  path: Assets/Rim.mat
+  artifactKey: Guid(bc8a2f9fcc380f347bb7344fc06f3ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rim.mat using Guid(bc8a2f9fcc380f347bb7344fc06f3ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34c69503c6390fc2148c1c705226930') in 0.165132 seconds 
+  Import took 0.171110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/SecondTest.mat
+  artifactKey: Guid(66709290e3e417f4cbdab103f5e8aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SecondTest.mat using Guid(66709290e3e417f4cbdab103f5e8aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a8ac72262760c320af63a1817041c8') in 0.075211 seconds 
+  Import took 0.079460 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004189 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.378 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.7 MB.
+System memory in use after: 69.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1905.
+Total: 2.759100 ms (FindLiveObjects: 0.214500 ms CreateObjectMapping: 0.061700 ms MarkObjects: 2.410500 ms  DeleteObjects: 0.070600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 81.252409 seconds.
+  path: Assets/ForLambert.shader
+  artifactKey: Guid(78904df4ac968f146b15e3070d1c5df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ForLambert.shader using Guid(78904df4ac968f146b15e3070d1c5df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596eacb937190c8eea0a591456ce694a') in 0.037090 seconds 
+  Import took 0.045798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.871402 seconds.
+  path: Assets/ForPhong.shader
+  artifactKey: Guid(6b282c16662b51143aea87128e82f4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ForPhong.shader using Guid(6b282c16662b51143aea87128e82f4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efe87adc650668dd2b7766379a29d42') in 0.030770 seconds 
+  Import took 0.034931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2035.292277 seconds.
+  path: Assets/Lamb.mat
+  artifactKey: Guid(3730b247e3785794ead25f324e2284c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lamb.mat using Guid(3730b247e3785794ead25f324e2284c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120ccdc6538a18d5a67f5f7aaa3fe594') in 0.152065 seconds 
+  Import took 0.158657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.343236 seconds.
+  path: Assets/Phong.mat
+  artifactKey: Guid(31d4bbc44711d364db832cc96e5a53d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Phong.mat using Guid(31d4bbc44711d364db832cc96e5a53d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b72bff5435f030363d83693dfc094af') in 0.056674 seconds 
+  Import took 0.066958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1528.015829 seconds.
+  path: Assets/StandartShader.shader
+  artifactKey: Guid(d7758d3fbdbf40d4b90c0ec33ea282e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandartShader.shader using Guid(d7758d3fbdbf40d4b90c0ec33ea282e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8227c5fb8754e15c1848e14c93a515') in 0.037854 seconds 
+  Import took 0.043882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.878203 seconds.
+  path: Assets/Custom_StandartShader.mat
+  artifactKey: Guid(8de79f92c32270443b2e225419c886fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom_StandartShader.mat using Guid(8de79f92c32270443b2e225419c886fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31eea283d911e7bf9231d02410ffa1e') in 0.217687 seconds 
+  Import took 0.222484 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007439 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.825 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 70.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1910.
+Total: 5.091600 ms (FindLiveObjects: 0.352700 ms CreateObjectMapping: 0.112800 ms MarkObjects: 3.528800 ms  DeleteObjects: 1.090000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007185 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.300 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 70.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1913.
+Total: 4.537500 ms (FindLiveObjects: 0.282600 ms CreateObjectMapping: 0.091000 ms MarkObjects: 3.084500 ms  DeleteObjects: 1.077700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1769.701515 seconds.
+  path: Assets/Conifer_Needles_Desktop.tga
+  artifactKey: Guid(fa388155ce358d34c85f4537c068dcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conifer_Needles_Desktop.tga using Guid(fa388155ce358d34c85f4537c068dcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb8801186bff934416a7c7f734e3968') in 0.093387 seconds 
+  Import took 0.097268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.309965 seconds.
+  path: Assets/Custom_StandartShader.mat
+  artifactKey: Guid(8de79f92c32270443b2e225419c886fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom_StandartShader.mat using Guid(8de79f92c32270443b2e225419c886fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9c9c923b76b4a09a164082a9af6553') in 0.119317 seconds 
+  Import took 0.123723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Phong.mat
+  artifactKey: Guid(31d4bbc44711d364db832cc96e5a53d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Phong.mat using Guid(31d4bbc44711d364db832cc96e5a53d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9796f989db2ba4eded6002e64462fbd') in 0.054538 seconds 
+  Import took 0.058687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Lamb.mat
+  artifactKey: Guid(3730b247e3785794ead25f324e2284c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lamb.mat using Guid(3730b247e3785794ead25f324e2284c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a083accb01b6620f2f4a140d03724f0a') in 0.063905 seconds 
+  Import took 0.069263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.337522 seconds.
+  path: Assets/Leaves.mat
+  artifactKey: Guid(8ab18eb934884c340b2f2de184f0eaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leaves.mat using Guid(8ab18eb934884c340b2f2de184f0eaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95424c0b3b08e16359511e1c819dd556') in 0.047167 seconds 
+  Import took 0.052868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.262620 seconds.
+  path: Assets/Leaves.shader
+  artifactKey: Guid(b61561a964a651740a9275913665f7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leaves.shader using Guid(b61561a964a651740a9275913665f7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2dab50b65b9bd98f518eb16c5b785e') in 0.013853 seconds 
+  Import took 0.019753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002590 seconds.
+  path: Assets/Leaves.shader
+  artifactKey: Guid(b61561a964a651740a9275913665f7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leaves.shader using Guid(b61561a964a651740a9275913665f7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2dab50b65b9bd98f518eb16c5b785e') in 0.020068 seconds 
+  Import took 0.028930 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004812 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.490 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.7 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1920.
+Total: 2.791500 ms (FindLiveObjects: 0.218000 ms CreateObjectMapping: 0.060800 ms MarkObjects: 2.218000 ms  DeleteObjects: 0.293300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1051.222582 seconds.
+  path: Assets/RimLight.shader
+  artifactKey: Guid(e90559312eb38864aa1e717416a7a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RimLight.shader using Guid(e90559312eb38864aa1e717416a7a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e93e76c6769115798e4a66fa1e4550') in 0.044832 seconds 
+  Import took 0.049393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002693 seconds.
+  path: Assets/RimLight.shader
+  artifactKey: Guid(e90559312eb38864aa1e717416a7a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RimLight.shader using Guid(e90559312eb38864aa1e717416a7a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e93e76c6769115798e4a66fa1e4550') in 0.013558 seconds 
+  Import took 0.018805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.083328 seconds.
+  path: Assets/Leaves.mat
+  artifactKey: Guid(8ab18eb934884c340b2f2de184f0eaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leaves.mat using Guid(8ab18eb934884c340b2f2de184f0eaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa16b4f15ab33e7747dec2fe9d5b8918') in 0.331831 seconds 
+  Import took 0.338281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/RimLight 1.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RimLight 1.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cee018ed6a52e97ee2b5861662bd0c') in 0.052980 seconds 
+  Import took 0.063125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001163 seconds.
+  path: Assets/RimLight 1.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RimLight 1.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cee018ed6a52e97ee2b5861662bd0c') in 0.018583 seconds 
+  Import took 0.022898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 260.755951 seconds.
+  path: Assets/RimLight 1.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RimLight 1.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aca5ca309d987b9f211e9cc740741bc') in 0.017376 seconds 
+  Import took 0.027328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.050759 seconds.
+  path: Assets/RimLight 1.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RimLight 1.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86967f86f7d8b644f1a174cc3fcd321b') in 0.012183 seconds 
+  Import took 0.016973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.691232 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231a52b6a3193d18ff5d9305f7ba72fa') in 0.021301 seconds 
+  Import took 0.030697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.981864 seconds.
+  path: Assets/Custom_Hologram.mat
+  artifactKey: Guid(2775a5d0c60a6a148be65a3845f755bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom_Hologram.mat using Guid(2775a5d0c60a6a148be65a3845f755bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8527b03ad146e33c0768a3a276f0562f') in 0.169389 seconds 
+  Import took 0.175378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.190748 seconds.
+  path: Assets/Leaves.shader
+  artifactKey: Guid(b61561a964a651740a9275913665f7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leaves.shader using Guid(b61561a964a651740a9275913665f7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ba56c6271714335da1f2bde898d4a7') in 0.012575 seconds 
+  Import took 0.017920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 246.503875 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006021 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.013186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056241 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003695 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.009989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006029 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009356 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.017564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033162 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004267 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.008386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046692 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005062 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.009363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044515 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003217 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.010161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055770 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004777 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.009128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047547 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003516 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.008848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047273 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005605 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.009912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049268 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003969 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.008771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047815 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003241 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.007874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066019 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005698 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.010079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045429 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004872 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.012244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039987 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003724 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.009293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052532 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003761 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.008487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043033 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005093 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.011370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042933 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003911 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.008197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049695 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004248 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.010436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050361 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004196 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.008892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049244 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009513 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.015206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051247 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003351 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.009498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044304 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006761 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.011112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040553 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003814 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.009660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046982 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003959 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.010813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047709 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004902 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.009702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046515 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004132 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.007725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048057 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005680 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.009324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055775 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004844 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.011638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044816 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005917 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.010160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049282 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004327 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.009138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048418 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003746 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.007550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045023 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003624 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.007346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047365 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007615 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.012812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044651 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006528 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.010752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049986 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003461 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.007574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047594 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003564 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.007864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046237 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003101 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.008778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056906 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004383 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.009539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052380 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003697 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.010444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042564 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003929 seconds  code(4) message(Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z')
+  ERROR: Build asset version error: assets/hologram.shader in SourceAssetDB has modification time of '2021-08-05T12:15:32.8734309Z' while content on disk has modification time of '2021-08-05T12:16:07.7905584Z'
+  Import took 0.009248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064388 seconds.
+  path: Assets/RimLight 1.shader
+  artifactKey: Guid(c23e241b63405dd4ba43b631ee96240e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RimLight 1.shader using Guid(c23e241b63405dd4ba43b631ee96240e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57388f94da611f0fb6b5391d5f84e87') in 0.010880 seconds 
+  Import took 0.016893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.861212 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9459759ce64fd2b924c046094a1c1e') in 0.023083 seconds 
+  Import took 0.027947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007143 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9459759ce64fd2b924c046094a1c1e') in 0.020876 seconds 
+  Import took 0.033543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.790037 seconds.
+  path: Assets/Hologram.shader
+  artifactKey: Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hologram.shader using Guid(e2dedd50ddd25994aac1badb8133b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15b859779b2c0158942ef55634b0e20') in 0.012497 seconds 
+  Import took 0.017756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 977.786635 seconds.
+  path: Assets/Custom_Hologram.mat
+  artifactKey: Guid(2775a5d0c60a6a148be65a3845f755bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom_Hologram.mat using Guid(2775a5d0c60a6a148be65a3845f755bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41817b4563b67538697fdb0f5cffd0d8') in 0.277649 seconds 
+  Import took 0.283506 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011695 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.005 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.0 MB.
+System memory in use after: 72.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1928.
+Total: 2.763200 ms (FindLiveObjects: 0.212100 ms CreateObjectMapping: 0.070800 ms MarkObjects: 2.240800 ms  DeleteObjects: 0.237900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 57.759513 seconds.
+  path: Assets/StarSparrow/Readme/ReadmeStarSparrow.asset
+  artifactKey: Guid(831b6df9656715346bac250feaa321a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Readme/ReadmeStarSparrow.asset using Guid(831b6df9656715346bac250feaa321a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b8c9636cd27ac1437629ceaa1334b2') in 0.038667 seconds 
+  Import took 0.044482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.269715 seconds.
+  path: Assets/StarSparrow
+  artifactKey: Guid(68ba141d95b38104d9d463ad4786bd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow using Guid(68ba141d95b38104d9d463ad4786bd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54eddeae280f7ce5188cf53b676f4584') in 0.027100 seconds 
+  Import took 0.038952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.985778 seconds.
+  path: Assets/StarSparrow/Prefabs
+  artifactKey: Guid(6d2f5be4eb88b5941ace2c32884f90a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs using Guid(6d2f5be4eb88b5941ace2c32884f90a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6705690fdda05d07dbdbe1d5237f35') in 0.025027 seconds 
+  Import took 0.032190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061036 seconds.
+  path: Assets/StarSparrow/Prefabs/StarSparrow1.prefab
+  artifactKey: Guid(f805c7b2f982faf43833878e4f22ae2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/StarSparrow1.prefab using Guid(f805c7b2f982faf43833878e4f22ae2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494165ee24b8a1ca560e2957871933cb') in 0.659136 seconds 
+  Import took 0.665207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/StarSparrow/Prefabs/StarSparrow2.prefab
+  artifactKey: Guid(dae7a3955bbf76e409d09988296acacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/StarSparrow2.prefab using Guid(dae7a3955bbf76e409d09988296acacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29e1e5e75e672222b9f7c3a039a2a1d') in 0.080912 seconds 
+  Import took 0.088008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/StarSparrow/Prefabs/StarSparrow10.prefab
+  artifactKey: Guid(fb80d574ec67a7c4e8ef1a14a65990f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/StarSparrow10.prefab using Guid(fb80d574ec67a7c4e8ef1a14a65990f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf2fc556a45c26688bf588c1c1ca7ca') in 0.072139 seconds 
+  Import took 0.078955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/StarSparrow/Prefabs/StarSparrow11.prefab
+  artifactKey: Guid(5a073d16030e9bb4ab4bab71c3124066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/StarSparrow11.prefab using Guid(5a073d16030e9bb4ab4bab71c3124066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cb9d3d7282eb502788b5e581595836') in 0.067369 seconds 
+  Import took 0.072987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/StarSparrow/Prefabs/StarSparrow13.prefab
+  artifactKey: Guid(6647bc14b7f253f4aa7ed042ccbd8304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/StarSparrow13.prefab using Guid(6647bc14b7f253f4aa7ed042ccbd8304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da920a4ce3590fa4159446012f86781') in 0.074757 seconds 
+  Import took 0.081379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/StarSparrow/Prefabs/StarSparrow4.prefab
+  artifactKey: Guid(206dc24d514cdd146a07be8e731a56e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/StarSparrow4.prefab using Guid(206dc24d514cdd146a07be8e731a56e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99d2c7c2b1cb33fddaa13d5d75d60e5') in 0.072135 seconds 
+  Import took 0.078921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/StarSparrow/Prefabs/StarSparrow8.prefab
+  artifactKey: Guid(12e2965e034095b40b035c26bdecd5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/StarSparrow8.prefab using Guid(12e2965e034095b40b035c26bdecd5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a078ecfd3b37873c49b0f25033b5b654') in 0.071301 seconds 
+  Import took 0.074994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/StarSparrow/Prefabs/StarSparrow3.prefab
+  artifactKey: Guid(e261f7b66a8f0fd4492d87df1eee4222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/StarSparrow3.prefab using Guid(e261f7b66a8f0fd4492d87df1eee4222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762fce4df08ef25fd157584f57b91071') in 0.081333 seconds 
+  Import took 0.085730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/StarSparrow/Prefabs/StarSparrow5.prefab
+  artifactKey: Guid(4d54efa43b03b1845b929768cf25e790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/StarSparrow5.prefab using Guid(4d54efa43b03b1845b929768cf25e790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3363ed1bfe1b468260f1d595d884b6e6') in 0.072535 seconds 
+  Import took 0.076891 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000261 seconds.
-  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Base_Color.tga
-  artifactKey: Guid(dfc1785e05281294d878cde6894aa955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Base_Color.tga using Guid(dfc1785e05281294d878cde6894aa955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac23a48d7e3b48beaf3be14de373e811') in 0.011617 seconds 
-  Import took 0.013513 seconds .
+  path: Assets/StarSparrow/Prefabs/StarSparrow12.prefab
+  artifactKey: Guid(79e4c0d1647edb24e82e40e6b4bcaa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/StarSparrow12.prefab using Guid(79e4c0d1647edb24e82e40e6b4bcaa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f8e7db64a0031cc65c8d7dee71b3ba') in 0.077476 seconds 
+  Import took 0.082632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/StarSparrow/Prefabs/StarSparrow9.prefab
+  artifactKey: Guid(7861019a7b8cb6f4db5310695263b29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/StarSparrow9.prefab using Guid(7861019a7b8cb6f4db5310695263b29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd394ef849247b10e441f0defc38bd9af') in 0.073999 seconds 
+  Import took 0.084644 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000272 seconds.
-  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Height.tga
-  artifactKey: Guid(b54216825a0a75045ae1d36295ceecd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Height.tga using Guid(b54216825a0a75045ae1d36295ceecd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25b0afedc747da52551bb4797fa8c16') in 0.011227 seconds 
-  Import took 0.013120 seconds .
+  path: Assets/StarSparrow/Prefabs/StarSparrow6.prefab
+  artifactKey: Guid(33942a27e06a55e498652847d7d15f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/StarSparrow6.prefab using Guid(33942a27e06a55e498652847d7d15f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82be7424ec0ac1756e59efe9422646a1') in 0.075700 seconds 
+  Import took 0.083507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/StarSparrow/Prefabs/StarSparrow7.prefab
+  artifactKey: Guid(c79905ec17c169a49b75177b6cf0d524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/StarSparrow7.prefab using Guid(c79905ec17c169a49b75177b6cf0d524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0ed68d9abfa9214817975173db2dcf') in 0.077260 seconds 
+  Import took 0.082557 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004952 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.564 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.9 MB.
+System memory in use after: 72.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1932.
+Total: 15.716200 ms (FindLiveObjects: 6.534900 ms CreateObjectMapping: 0.200700 ms MarkObjects: 8.853100 ms  DeleteObjects: 0.124100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 844.540818 seconds.
+  path: Assets/panel.png
+  artifactKey: Guid(46795dacfc9add148bc67eb0a262c9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/panel.png using Guid(46795dacfc9add148bc67eb0a262c9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c878c81449fa5de5107380537316ca1') in 0.104885 seconds 
+  Import took 0.109527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.330376 seconds.
+  path: Assets/Blender.mat
+  artifactKey: Guid(29a3a5f249652924d99b7c2d56b3d2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender.mat using Guid(29a3a5f249652924d99b7c2d56b3d2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f0960efe934ce89c0726b076e58159') in 0.161939 seconds 
+  Import took 0.167445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.567358 seconds.
+  path: Assets/BlenShader.shader
+  artifactKey: Guid(0da16e2b9ef198d4e989557bc51cdbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenShader.shader using Guid(0da16e2b9ef198d4e989557bc51cdbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b8b42b06516249a8192acecfabdf3d') in 0.020371 seconds 
+  Import took 0.030582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002234 seconds.
+  path: Assets/BlenShader.shader
+  artifactKey: Guid(0da16e2b9ef198d4e989557bc51cdbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenShader.shader using Guid(0da16e2b9ef198d4e989557bc51cdbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b8b42b06516249a8192acecfabdf3d') in 0.012167 seconds 
+  Import took 0.018791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.145724 seconds.
+  path: Assets/Shaders
+  artifactKey: Guid(7c30998c5e97527428b6759bcec66b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders using Guid(7c30998c5e97527428b6759bcec66b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c81baab07ce4201b9492a4a52e6470') in 0.024439 seconds 
+  Import took 0.028948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.830419 seconds.
+  path: Assets/ForLambert.shader
+  artifactKey: Guid(78904df4ac968f146b15e3070d1c5df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ForLambert.shader using Guid(78904df4ac968f146b15e3070d1c5df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d32210e268ca2b51490b6768a2d2457') in 0.019451 seconds 
+  Import took 0.025870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.064015 seconds.
+  path: Assets/Materials 1
+  artifactKey: Guid(8df128aec227376499bde495fa30173f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials 1 using Guid(8df128aec227376499bde495fa30173f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64fcf427d0f3101277bc0c20b2afd626') in 0.017699 seconds 
+  Import took 0.021191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.574463 seconds.
+  path: Assets/Materials/Conifer_Needles_Desktop.mat
+  artifactKey: Guid(d858e0201d3813a42afdde26fa6aac12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Conifer_Needles_Desktop.mat using Guid(d858e0201d3813a42afdde26fa6aac12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e45fa0e8961b6e1ca1bf7b728bc9b31') in 0.028469 seconds 
+  Import took 0.032079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Materials/Vol_35_3_Emissive 1.mat
+  artifactKey: Guid(5ad7792f06629314bad1fd0e1784b303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Vol_35_3_Emissive 1.mat using Guid(5ad7792f06629314bad1fd0e1784b303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70617e0c4b65c2acbef2ddeeba9d56e5') in 0.067715 seconds 
+  Import took 0.071528 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000263 seconds.
-  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Roughness.tga
-  artifactKey: Guid(ee6d998e65365904ba2f9fa70273b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Roughness.tga using Guid(ee6d998e65365904ba2f9fa70273b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a722c86a962fc4832a00f8f3b15bc172') in 0.012073 seconds 
-  Import took 0.014008 seconds .
+  path: Assets/Materials/lambert2.mat
+  artifactKey: Guid(0ba7f793da9165f459a403af679533bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lambert2.mat using Guid(0ba7f793da9165f459a403af679533bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80474df3a6f8a7716b3cff7cc96212fb') in 0.049705 seconds 
+  Import took 0.053473 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Emissive.tga
-  artifactKey: Guid(fa33609267bcdfb41ac03c9fd4b56b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Emissive.tga using Guid(fa33609267bcdfb41ac03c9fd4b56b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e923e8d50f7e075ef9e2183e100d82') in 0.012574 seconds 
-  Import took 0.014500 seconds .
+  Time since last request: 0.009647 seconds.
+  path: Assets/Materials/lambert2.mat
+  artifactKey: Guid(0ba7f793da9165f459a403af679533bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lambert2.mat using Guid(0ba7f793da9165f459a403af679533bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80474df3a6f8a7716b3cff7cc96212fb') in 0.088619 seconds 
+  Import took 0.096616 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002437 seconds.
-  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Roughness.tga
-  artifactKey: Guid(ee6d998e65365904ba2f9fa70273b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Roughness.tga using Guid(ee6d998e65365904ba2f9fa70273b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a722c86a962fc4832a00f8f3b15bc172') in 0.012452 seconds 
-  Import took 0.014552 seconds .
+  Time since last request: 19.517292 seconds.
+  path: Assets/Materials/Blender.mat
+  artifactKey: Guid(29a3a5f249652924d99b7c2d56b3d2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blender.mat using Guid(29a3a5f249652924d99b7c2d56b3d2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b215df29db2bcb3bfb65283f0831d8d3') in 0.028701 seconds 
+  Import took 0.032391 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.746606 seconds.
-  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Base_Color 1.tga
-  artifactKey: Guid(ed079d4d7c39b5844b6ddac367b5d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Base_Color 1.tga using Guid(ed079d4d7c39b5844b6ddac367b5d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e2ff5b75a9b761314759ed205dcf3c') in 0.010843 seconds 
-  Import took 0.013034 seconds .
+  Time since last request: 0.000299 seconds.
+  path: Assets/Materials/Custom_Hologram.mat
+  artifactKey: Guid(2775a5d0c60a6a148be65a3845f755bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Custom_Hologram.mat using Guid(2775a5d0c60a6a148be65a3845f755bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d33bd26ec1d6c037fbf4a3a3334cf8') in 0.041538 seconds 
+  Import took 0.046728 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.009163 seconds.
-  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Base_Color 1.tga
-  artifactKey: Guid(ed079d4d7c39b5844b6ddac367b5d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Base_Color 1.tga using Guid(ed079d4d7c39b5844b6ddac367b5d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e2ff5b75a9b761314759ed205dcf3c') in 0.011371 seconds 
-  Import took 0.013888 seconds .
+  Time since last request: 0.000335 seconds.
+  path: Assets/Materials/Rim.mat
+  artifactKey: Guid(bc8a2f9fcc380f347bb7344fc06f3ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rim.mat using Guid(bc8a2f9fcc380f347bb7344fc06f3ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc19205966d84c79c22ca84ce22bbc7') in 0.038011 seconds 
+  Import took 0.043479 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 332.328182 seconds.
-  path: Assets/Stylized Lava Texture/Materials
-  artifactKey: Guid(855350d72edd5b546aba24877b32789a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Materials using Guid(855350d72edd5b546aba24877b32789a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244a5c848d8cc778fa58a73bb8f1566c') in 0.002441 seconds 
-  Import took 0.005275 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004858 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.420 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.5 MB.
+System memory in use after: 72.2 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 3.151145 seconds.
-  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Emissive 1.tga
-  artifactKey: Guid(a13ed5fad18586e49993d8391e8b742c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Emissive 1.tga using Guid(a13ed5fad18586e49993d8391e8b742c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f77ad8f3de066642122652356cc7ea') in 0.011309 seconds 
-  Import took 0.013419 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1936.
+Total: 3.197000 ms (FindLiveObjects: 0.212700 ms CreateObjectMapping: 0.059500 ms MarkObjects: 2.447700 ms  DeleteObjects: 0.475600 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.007223 seconds.
-  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Emissive 1.tga
-  artifactKey: Guid(a13ed5fad18586e49993d8391e8b742c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Emissive 1.tga using Guid(a13ed5fad18586e49993d8391e8b742c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f77ad8f3de066642122652356cc7ea') in 0.010086 seconds 
-  Import took 0.012194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.604066 seconds.
-  path: Assets/SecondTest.mat
-  artifactKey: Guid(66709290e3e417f4cbdab103f5e8aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SecondTest.mat using Guid(66709290e3e417f4cbdab103f5e8aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bb24700b5795e24d5236a92c68cece') in 0.025700 seconds 
-  Import took 0.030575 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
