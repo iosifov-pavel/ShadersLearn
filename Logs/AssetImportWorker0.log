@@ -1646,3 +1646,750 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021435 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.346 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.4 MB.
+System memory in use after: 72.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1939.
+Total: 4.541300 ms (FindLiveObjects: 0.281900 ms CreateObjectMapping: 0.146400 ms MarkObjects: 3.540100 ms  DeleteObjects: 0.570500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3848.729056 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(dfd4540d49b427744a11b7db9234e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(dfd4540d49b427744a11b7db9234e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964842c5e194378c488d4ebd66254ae5') in 0.051240 seconds 
+  Import took 0.065092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002673 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(dfd4540d49b427744a11b7db9234e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(dfd4540d49b427744a11b7db9234e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964842c5e194378c488d4ebd66254ae5') in 0.011710 seconds 
+  Import took 0.031345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.194523 seconds.
+  path: Assets/Shaders/BlendTextures.shader
+  artifactKey: Guid(baf2b76d71096564db153161cce3b2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/BlendTextures.shader using Guid(baf2b76d71096564db153161cce3b2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc5deeca7aa0a6f0f293490f8c2e3f8') in 0.067542 seconds 
+  Import took 0.072439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.134639 seconds.
+  path: Assets/Shaders/Custom_BlendTextures.mat
+  artifactKey: Guid(0f1fb7a1d444c13429ff94ecbb2460c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Custom_BlendTextures.mat using Guid(0f1fb7a1d444c13429ff94ecbb2460c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227deef182fdc8e89b858d07366cba51') in 0.118954 seconds 
+  Import took 0.123185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 541.048194 seconds.
+  path: Assets/Materials/Leaves.mat
+  artifactKey: Guid(8ab18eb934884c340b2f2de184f0eaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Leaves.mat using Guid(8ab18eb934884c340b2f2de184f0eaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaee52df13f0ebc8eedb841cd3082508') in 0.079560 seconds 
+  Import took 0.087222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 324.793969 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(48cbc5deefd70da43a80eb36772e06c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(48cbc5deefd70da43a80eb36772e06c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29742217c68ef926db7b3111c7713542') in 0.020720 seconds 
+  Import took 0.029615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001450 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(48cbc5deefd70da43a80eb36772e06c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(48cbc5deefd70da43a80eb36772e06c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29742217c68ef926db7b3111c7713542') in 0.007951 seconds 
+  Import took 0.022797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.820318 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd93cc98dea129a0c5d9df04d2cd134') in 0.020008 seconds 
+  Import took 0.024363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.024947 seconds.
+  path: Assets/Scenes/SampleScene 1.unity
+  artifactKey: Guid(6766d22fde669194b96eb0575038ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene 1.unity using Guid(6766d22fde669194b96eb0575038ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7ce00c698abd23501070804aa87691') in 0.018291 seconds 
+  Import took 0.022550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.860856 seconds.
+  path: Assets/Scenes/BlendTextures.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BlendTextures.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4053410ee86e738d1ba74d609503a1a1') in 0.022321 seconds 
+  Import took 0.028011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.556881 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(6766d22fde669194b96eb0575038ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(6766d22fde669194b96eb0575038ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95891f2a21532eedb51ade6fa4023ac4') in 0.010258 seconds 
+  Import took 0.013958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.952516 seconds.
+  path: Assets/StarSparrow/Materials/BonusContent/AsteroidsLava_Blue.mat
+  artifactKey: Guid(e1cac9f87fda27445ac6a54ade344d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/BonusContent/AsteroidsLava_Blue.mat using Guid(e1cac9f87fda27445ac6a54ade344d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbf0ae2f646a9681da6f985c600ddda') in 0.854848 seconds 
+  Import took 0.858756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Stylized Lava Texture/Materials/Stylize Rock.mat
+  artifactKey: Guid(d7c83a9bbdf00324b803ae1daa2ef005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Materials/Stylize Rock.mat using Guid(d7c83a9bbdf00324b803ae1daa2ef005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15cc3a03f82cb55a4493fc2d931705b') in 0.609014 seconds 
+  Import took 0.612475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/StarSparrow/Materials/StarSparrow Blue.mat
+  artifactKey: Guid(ca28c97d23f98024fb31e22662eb58e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/StarSparrow Blue.mat using Guid(ca28c97d23f98024fb31e22662eb58e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a2505ba1016cfadd378af9745122d7') in 0.227393 seconds 
+  Import took 0.230942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/StarSparrow/Materials/BonusContent/Missile.mat
+  artifactKey: Guid(30d351457dfac9d40a8b07e6426fd177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/BonusContent/Missile.mat using Guid(30d351457dfac9d40a8b07e6426fd177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f4733dc98667c66eedb2c225efbc9e') in 0.157278 seconds 
+  Import took 0.161656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/StarSparrow/Materials/StarSparrow Purple.mat
+  artifactKey: Guid(b172b3eb38b7df64eb5c8a08420eea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/StarSparrow Purple.mat using Guid(b172b3eb38b7df64eb5c8a08420eea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5337dfb7ca7e2852377af80fea2edc') in 0.127872 seconds 
+  Import took 0.133239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/StarSparrow/Materials/Unified/StarSparrow Blue.mat
+  artifactKey: Guid(57125df2e9117bb40a32c83b6390c301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/Unified/StarSparrow Blue.mat using Guid(57125df2e9117bb40a32c83b6390c301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e137764bd90307f5d102c3edcf4716a') in 0.088020 seconds 
+  Import took 0.093139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/StarSparrow/Materials/StarSparrow Orange.mat
+  artifactKey: Guid(8b52c4a2cbd2a8248b7c6e782e73497e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/StarSparrow Orange.mat using Guid(8b52c4a2cbd2a8248b7c6e782e73497e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c69575b04ee6eee26fd259af1a53ea1') in 0.111135 seconds 
+  Import took 0.118621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/StarSparrow/Materials/BonusContent/TinniuqPlanet.mat
+  artifactKey: Guid(58bc1c6f4cc25b942bb7eb6b75c68156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/BonusContent/TinniuqPlanet.mat using Guid(58bc1c6f4cc25b942bb7eb6b75c68156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82bfd68dbfe1b8dce0737a778168118') in 0.083670 seconds 
+  Import took 0.090263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/StarSparrow/Materials/Unified/StarSparrow White.mat
+  artifactKey: Guid(f4515b3c7e536f347a12e8ed4566741c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/Unified/StarSparrow White.mat using Guid(f4515b3c7e536f347a12e8ed4566741c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4c9e13f9d6fcaf94f49f2d11b55dc9') in 0.083994 seconds 
+  Import took 0.090175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/StarSparrow/Materials/Unified/StarSparrow Green.mat
+  artifactKey: Guid(c1d543fb584b643408f83fef5d62be33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/Unified/StarSparrow Green.mat using Guid(c1d543fb584b643408f83fef5d62be33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13689d636bd88b2950a75974bc7a54b') in 0.087954 seconds 
+  Import took 0.094532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/StarSparrow/Materials/BonusContent/Bomb.mat
+  artifactKey: Guid(2d81e0bd71e79784199dbdf6880a51e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/BonusContent/Bomb.mat using Guid(2d81e0bd71e79784199dbdf6880a51e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588bef3677975036fc943d877d5b45ce') in 0.056676 seconds 
+  Import took 0.060875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001786 seconds.
+  path: Assets/Stylized Lava Texture/Materials/Stylize Wood  Diffuse.mat
+  artifactKey: Guid(4c577c226c9a1694c87afcaa1fe637d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Materials/Stylize Wood  Diffuse.mat using Guid(4c577c226c9a1694c87afcaa1fe637d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74cf3a89cbb16fc50c25cee00b11a8e0') in 0.258846 seconds 
+  Import took 0.268780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Stylized Lava Texture/Materials/Stylized Stones.mat
+  artifactKey: Guid(55a512382d8a87e48bf3bb9092ecbf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Materials/Stylized Stones.mat using Guid(55a512382d8a87e48bf3bb9092ecbf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff5768a4a4755adfe28bc78b0477488') in 0.081781 seconds 
+  Import took 0.090435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/StarSparrow/Materials/StarSparrow Yellow.mat
+  artifactKey: Guid(5953a6e817e87be4195c31da8fdce334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/StarSparrow Yellow.mat using Guid(5953a6e817e87be4195c31da8fdce334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b0386329ecff9c3ee071a134dffd7f') in 0.095358 seconds 
+  Import took 0.105048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/StarSparrow/Materials/BonusContent/Grey.mat
+  artifactKey: Guid(6b0bf81b9bf769c4cb75da722d4530a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/BonusContent/Grey.mat using Guid(6b0bf81b9bf769c4cb75da722d4530a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3b9b667599981751f4181e1ce7846f') in 0.059343 seconds 
+  Import took 0.067590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/StarSparrow/Materials/BonusContent/Mine Sample 2.mat
+  artifactKey: Guid(7da0d403d4fb0da40ac018d557c6db89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/BonusContent/Mine Sample 2.mat using Guid(7da0d403d4fb0da40ac018d557c6db89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f23c2b5f40b9af5614d569016201539') in 0.055033 seconds 
+  Import took 0.059230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/Stylized Lava Texture/Materials/Stylize Rock Diffuse.mat
+  artifactKey: Guid(2524905c4a99dff42981b604098cf177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Materials/Stylize Rock Diffuse.mat using Guid(2524905c4a99dff42981b604098cf177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c25e104f536d29fbd493f0911312f87') in 0.053334 seconds 
+  Import took 0.058229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/StarSparrow/Materials/StarSparrow Black.mat
+  artifactKey: Guid(020568ce6bb9b3245a24630d5282ca24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/StarSparrow Black.mat using Guid(020568ce6bb9b3245a24630d5282ca24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cfcdd7ecac88eb699ff052b9eb30c9') in 0.094398 seconds 
+  Import took 0.102671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Stylized Lava Texture/Materials/Stylized Stones Diffuse.mat
+  artifactKey: Guid(7443e746634ee474b8a2748d8fb7250e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Materials/Stylized Stones Diffuse.mat using Guid(7443e746634ee474b8a2748d8fb7250e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e65d681119f75c834017467103c0c1') in 0.043296 seconds 
+  Import took 0.048148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/StarSparrow/Materials/StarSparrow Cyan.mat
+  artifactKey: Guid(d58bf68b17f9a4240aaeb5c200c9a12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/StarSparrow Cyan.mat using Guid(d58bf68b17f9a4240aaeb5c200c9a12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28f202dce9226d24950e2662cd86ee1') in 0.099668 seconds 
+  Import took 0.107228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/StarSparrow/Materials/BonusContent/FlyingInsect_Purple.mat
+  artifactKey: Guid(cb69702e662a4114aa3a332d2da74996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/BonusContent/FlyingInsect_Purple.mat using Guid(cb69702e662a4114aa3a332d2da74996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947be63aa2e0f3bf255b20b4ecfa915d') in 0.278886 seconds 
+  Import took 0.287111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Stylized Lava Texture/Materials/Stylize_Lava_diffuse.mat
+  artifactKey: Guid(3b3ab2ec86ef45c48b01abe26983a811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Materials/Stylize_Lava_diffuse.mat using Guid(3b3ab2ec86ef45c48b01abe26983a811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a44bb0a9f6ad7db7827722d17616de0') in 0.074655 seconds 
+  Import took 0.079683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Stylized Lava Texture/Materials/Stylize Wood .mat
+  artifactKey: Guid(2f5aab5a7a5aa1145997d0e48dc10332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Materials/Stylize Wood .mat using Guid(2f5aab5a7a5aa1145997d0e48dc10332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37caaf4ee77f08523b887b2fa4f705ef') in 0.084493 seconds 
+  Import took 0.095350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/StarSparrow/Materials/Unified/StarSparrow Red.mat
+  artifactKey: Guid(78944cc85fa085845b84141d319ac0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/Unified/StarSparrow Red.mat using Guid(78944cc85fa085845b84141d319ac0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6ddc8a3b76acdc0562bb2d1123ee0a') in 0.095999 seconds 
+  Import took 0.102566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/StarSparrow/Materials/BonusContent/CloudsRed.mat
+  artifactKey: Guid(191ced9846689714398ed909c5e9284a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/BonusContent/CloudsRed.mat using Guid(191ced9846689714398ed909c5e9284a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b4d1181fcf3bb9981bb78212f5321e') in 0.530065 seconds 
+  Import took 0.534902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/StarSparrow/Materials/BonusContent/AsteroidsLava_Red.mat
+  artifactKey: Guid(816eca2bca813da4883bad3b376c4dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/BonusContent/AsteroidsLava_Red.mat using Guid(816eca2bca813da4883bad3b376c4dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b22f054a6c371f8567f7ff75b40a1ed') in 0.043051 seconds 
+  Import took 0.046476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/StarSparrow/Materials/BonusContent/Mine Sample 1.mat
+  artifactKey: Guid(82c97815f01775d4899d78255a373dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/BonusContent/Mine Sample 1.mat using Guid(82c97815f01775d4899d78255a373dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b737c39e11a93e9f88408c3c056ceb4') in 0.036551 seconds 
+  Import took 0.040894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Stylized Lava Texture/Materials/Stylize_Lava.mat
+  artifactKey: Guid(9418a5fcbafe84543998bd7c831a9ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Materials/Stylize_Lava.mat using Guid(9418a5fcbafe84543998bd7c831a9ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63097d3d2510a12513963ee9e7c4cd8') in 0.629817 seconds 
+  Import took 0.633940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/StarSparrow/Materials/BonusContent/AsteroidsLava_Red.mat
+  artifactKey: Guid(816eca2bca813da4883bad3b376c4dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/BonusContent/AsteroidsLava_Red.mat using Guid(816eca2bca813da4883bad3b376c4dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b22f054a6c371f8567f7ff75b40a1ed') in 0.070947 seconds 
+  Import took 0.077105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/StarSparrow/Materials/StarSparrow Red.mat
+  artifactKey: Guid(3574d5733ac60b941b175932e0a1aa2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/StarSparrow Red.mat using Guid(3574d5733ac60b941b175932e0a1aa2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dab9e764ba0fcdd42e52e4518270fdb') in 0.073205 seconds 
+  Import took 0.080930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/StarSparrow/Materials/Unified/StarSparrow Grey.mat
+  artifactKey: Guid(f221e96cfbb5d6040b82a97d3d5ff1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/Unified/StarSparrow Grey.mat using Guid(f221e96cfbb5d6040b82a97d3d5ff1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9cf98cf740ec81c6f4efba31cd7e96') in 0.109772 seconds 
+  Import took 0.115571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/StarSparrow/Materials/StarSparrow Green.mat
+  artifactKey: Guid(6a0ff067fa651004b8447b29a0092251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/StarSparrow Green.mat using Guid(6a0ff067fa651004b8447b29a0092251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482e22455876f9d29d42015b7bcb8ba7') in 0.096929 seconds 
+  Import took 0.102383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.137915 seconds.
+  path: Assets/Stylized Lava Texture/Textures/Vol_23_1_Base_Color.png
+  artifactKey: Guid(e4c6a01faea259f46984b293add3df4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/Vol_23_1_Base_Color.png using Guid(e4c6a01faea259f46984b293add3df4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ffac7cda106aa502c69b517de2eb26') in 0.077499 seconds 
+  Import took 0.083042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008618 seconds.
+  path: Assets/Stylized Lava Texture/Textures/Vol_23_1_Base_Color.png
+  artifactKey: Guid(e4c6a01faea259f46984b293add3df4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/Vol_23_1_Base_Color.png using Guid(e4c6a01faea259f46984b293add3df4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ffac7cda106aa502c69b517de2eb26') in 0.042137 seconds 
+  Import took 0.047853 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005974 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.631 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1948.
+Total: 2.384700 ms (FindLiveObjects: 0.205700 ms CreateObjectMapping: 0.061300 ms MarkObjects: 2.049700 ms  DeleteObjects: 0.066700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005358 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.478 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.5 MB.
+System memory in use after: 73.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1951.
+Total: 2.440500 ms (FindLiveObjects: 0.191300 ms CreateObjectMapping: 0.051700 ms MarkObjects: 2.105700 ms  DeleteObjects: 0.090500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004326 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.156 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.5 MB.
+System memory in use after: 73.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1954.
+Total: 9.497100 ms (FindLiveObjects: 1.590600 ms CreateObjectMapping: 0.420100 ms MarkObjects: 6.005500 ms  DeleteObjects: 1.474400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 800.902688 seconds.
+  path: Assets/Stylized Lava Texture/Textures/vol_2_3_Ambient_Occlusion.png
+  artifactKey: Guid(40a62786649ecba4280166147e79e5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/vol_2_3_Ambient_Occlusion.png using Guid(40a62786649ecba4280166147e79e5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4d2d86b8956cee4007127c922b0fd5') in 0.087966 seconds 
+  Import took 0.093671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Stylized Lava Texture/Textures/Vol_23_1_Ambient_Occlusion.png
+  artifactKey: Guid(c7bb39eaf298b0f4d8f6eac79843b12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/Vol_23_1_Ambient_Occlusion.png using Guid(c7bb39eaf298b0f4d8f6eac79843b12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0605780a6f07b2824e0de4bdc8ff3b') in 0.047358 seconds 
+  Import took 0.051164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Stylized Lava Texture/Textures/Vol_23_1_Height.png
+  artifactKey: Guid(d994a0254a5f6f145a8735ec2b6c5bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/Vol_23_1_Height.png using Guid(d994a0254a5f6f145a8735ec2b6c5bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb6c1f97904561bf1a70fa5b86d0463') in 0.036797 seconds 
+  Import took 0.042109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Stylized Lava Texture/Textures/vol_2_3_Roughness.png
+  artifactKey: Guid(293e4f1537bb38545b9d96e01d2e47f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/vol_2_3_Roughness.png using Guid(293e4f1537bb38545b9d96e01d2e47f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5077150cff2ebe3cf274a58abd1c0c4d') in 0.048498 seconds 
+  Import took 0.052809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Stylized Lava Texture/Textures/Vol_27_4_Ambient_Occlusion.png
+  artifactKey: Guid(562be93866ac0e047b1dc8dbce3f731c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/Vol_27_4_Ambient_Occlusion.png using Guid(562be93866ac0e047b1dc8dbce3f731c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45856f9ff3a95517efbf0aa622bdb83c') in 0.048509 seconds 
+  Import took 0.058286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Stylized Lava Texture/Textures/Vol_27_4_Normal.png
+  artifactKey: Guid(8a805bd60a75fcb4da974f3312f9b04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/Vol_27_4_Normal.png using Guid(8a805bd60a75fcb4da974f3312f9b04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8c2ce8918235c0eaebb63d7f58b8a7') in 0.065025 seconds 
+  Import took 0.070218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Stylized Lava Texture/Textures/vol_2_3_Normal.png
+  artifactKey: Guid(c3f6480e1852bf34e819f74d58c5477f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/vol_2_3_Normal.png using Guid(c3f6480e1852bf34e819f74d58c5477f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb8608aca4690f8c0aa4413fce2872e') in 0.066105 seconds 
+  Import took 0.070820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Stylized Lava Texture/Textures/Vol_27_4_Roughness.png
+  artifactKey: Guid(012269f5bc1a8924688137c69a1778f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/Vol_27_4_Roughness.png using Guid(012269f5bc1a8924688137c69a1778f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db0aaa7c74e325e1f9c47fb54c34ef7') in 0.047561 seconds 
+  Import took 0.057513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Stylized Lava Texture/Textures/Vol_27_4_Base_Color.png
+  artifactKey: Guid(48c068afd10a2af469a9352793de7f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/Vol_27_4_Base_Color.png using Guid(48c068afd10a2af469a9352793de7f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b66a83324cfa5c34d914e045b21715') in 0.040280 seconds 
+  Import took 0.045661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Stylized Lava Texture/Textures/vol_2_3_Base_Color.png
+  artifactKey: Guid(900f4bd6447eeb041a44d3066d2409ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/vol_2_3_Base_Color.png using Guid(900f4bd6447eeb041a44d3066d2409ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bd151c59059478cbb60ed1b0228e75') in 0.051176 seconds 
+  Import took 0.063326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Stylized Lava Texture/Textures/Vol_23_1_Normal.png
+  artifactKey: Guid(8c76dad3d59e548469bd252a15004d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/Vol_23_1_Normal.png using Guid(8c76dad3d59e548469bd252a15004d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bf34f7e7ce1d7e090de9b2b4394c1d') in 0.062757 seconds 
+  Import took 0.069564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Stylized Lava Texture/Textures/Vol_23_1_Roughness.png
+  artifactKey: Guid(4f9880255d5004a44a5cc54c645af013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/Vol_23_1_Roughness.png using Guid(4f9880255d5004a44a5cc54c645af013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2140f31d1b8308e46b380bbab4b3462') in 0.049562 seconds 
+  Import took 0.054174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Stylized Lava Texture/Textures/vol_2_3_Height.png
+  artifactKey: Guid(ff699ec2e2baca441a519cd901ae2f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/vol_2_3_Height.png using Guid(ff699ec2e2baca441a519cd901ae2f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b08c124f74149b070553e8cb27fbf1') in 0.054755 seconds 
+  Import took 0.060152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Stylized Lava Texture/Textures/Vol_27_4_Height.png
+  artifactKey: Guid(b3c909dc24cb39f4e9bebeb6ff479418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/Vol_27_4_Height.png using Guid(b3c909dc24cb39f4e9bebeb6ff479418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5500ffb689c322f91396f7fcc020d7a3') in 0.052633 seconds 
+  Import took 0.061078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 864.567567 seconds.
+  path: Assets/Stylized Lava Texture/Textures/vol_2_3_Base_Color 1.png
+  artifactKey: Guid(57f76acbcb840c349b33f32aeb63ff1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/vol_2_3_Base_Color 1.png using Guid(57f76acbcb840c349b33f32aeb63ff1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3205b276b7053babad6053d9b7df0ba3') in 0.066638 seconds 
+  Import took 0.076433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Stylized Lava Texture/Textures/Vol_23_1_Base_Color 1.png
+  artifactKey: Guid(0eb5de77b491dca448b104dd91632976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/Vol_23_1_Base_Color 1.png using Guid(0eb5de77b491dca448b104dd91632976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6335e6665b7e4de22248cc88523b6f8b') in 0.051315 seconds 
+  Import took 0.059923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Stylized Lava Texture/Textures/Vol_27_4_Base_Color 1.png
+  artifactKey: Guid(208db083c99ff204a8f6718c0c409a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Texture/Textures/Vol_27_4_Base_Color 1.png using Guid(208db083c99ff204a8f6718c0c409a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f274dae83db0e096f9f6ed15bda46bf3') in 0.057548 seconds 
+  Import took 0.061815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 326.658605 seconds.
+  path: Assets/Shaders/PencilShader.shader
+  artifactKey: Guid(258d058f08444124baa5b45d6369dca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/PencilShader.shader using Guid(258d058f08444124baa5b45d6369dca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd8e0d5da84cb5f1449234d4a7a42d2') in 0.054893 seconds 
+  Import took 0.065383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.915367 seconds.
+  path: Assets/Shaders/Custom_PencilShader.mat
+  artifactKey: Guid(0c6fac1d0a8134749b81a673cfa0ced4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Custom_PencilShader.mat using Guid(0c6fac1d0a8134749b81a673cfa0ced4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a851c7cc35a07f06991dfb4694140670') in 0.110647 seconds 
+  Import took 0.115589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.592724 seconds.
+  path: Assets/Materials/Custom_BlendTextures.mat
+  artifactKey: Guid(0f1fb7a1d444c13429ff94ecbb2460c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Custom_BlendTextures.mat using Guid(0f1fb7a1d444c13429ff94ecbb2460c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3208db94426c363c71b03c1412dca627') in 0.029835 seconds 
+  Import took 0.035403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000663 seconds.
+  path: Assets/Materials/Custom_StandartShader.mat
+  artifactKey: Guid(8de79f92c32270443b2e225419c886fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Custom_StandartShader.mat using Guid(8de79f92c32270443b2e225419c886fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c5d16aa618b2267c87b6c82619e054') in 0.044285 seconds 
+  Import took 0.061596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Materials/SecondTest.mat
+  artifactKey: Guid(66709290e3e417f4cbdab103f5e8aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SecondTest.mat using Guid(66709290e3e417f4cbdab103f5e8aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eabcbe53a4f6a28724eef56e341ac25') in 0.076302 seconds 
+  Import took 0.084435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.401770 seconds.
+  path: Assets/Shaders/pencilTargetShader.shader
+  artifactKey: Guid(8c2545cf6bd4da04e85a81020c2b0d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/pencilTargetShader.shader using Guid(8c2545cf6bd4da04e85a81020c2b0d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e910f2bb33e5f72dc7ee20720a2e873') in 0.182358 seconds 
+  Import took 0.190456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.180818 seconds.
+  path: Assets/Shaders/PencilTargetShader.shader
+  artifactKey: Guid(8c2545cf6bd4da04e85a81020c2b0d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/PencilTargetShader.shader using Guid(8c2545cf6bd4da04e85a81020c2b0d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90440e7f4279ebb2eb1ce4ce0685e8fe') in 0.023866 seconds 
+  Import took 0.034266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1592.408197 seconds.
+  path: Assets/Shaders/PencilShader.shader
+  artifactKey: Guid(258d058f08444124baa5b45d6369dca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/PencilShader.shader using Guid(258d058f08444124baa5b45d6369dca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb31482d9bb1a84ba18576d11092d35') in 0.027608 seconds 
+  Import took 0.043173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.645532 seconds.
+  path: Assets/Shaders/FirstVertexShader.shader
+  artifactKey: Guid(cb2b7caea740f6f44b05dbd9b85743d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FirstVertexShader.shader using Guid(cb2b7caea740f6f44b05dbd9b85743d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76056ef339e8947c05f8c269a754d4a9') in 0.059297 seconds 
+  Import took 0.077691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 383.472525 seconds.
+  path: Assets/Shaders/FirstVertexShader.shader
+  artifactKey: Guid(cb2b7caea740f6f44b05dbd9b85743d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FirstVertexShader.shader using Guid(cb2b7caea740f6f44b05dbd9b85743d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb88a9d1c6ab00d9f6bb95ee2bee3a0') in 0.009041 seconds 
+  Import took 0.014196 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.659 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.7 MB.
+System memory in use after: 74.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1960.
+Total: 3.864100 ms (FindLiveObjects: 0.347200 ms CreateObjectMapping: 0.082700 ms MarkObjects: 2.809000 ms  DeleteObjects: 0.622700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

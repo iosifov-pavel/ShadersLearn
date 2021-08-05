@@ -50,10 +50,16 @@ Shader "Custom/SecondShader"
             float Xt = _RangeX * _Time;
             float Yt = _RangeY * _Time;
             uv += float2(Xt,Yt);
+
+            float2 uv2 = IN.uv_Normals;
+            float Xt2 = _RangeX * _Time;
+            float Yt2 = _RangeY * _Time;
+            uv2 += float2(Xt2,Yt2);
+
             fixed4 c = (tex2D (_MainTex, uv) * _Color);
             o.Albedo = c.rgb;
             o.Alpha = c.a;
-            fixed3 nm = UnpackNormal(tex2D(_Normals,IN.uv_Normals));
+            fixed3 nm = UnpackNormal(tex2D(_Normals,uv2));
             nm.x *=_Float;
             nm.y *=_Float;
             o.Normal = normalize(nm);
