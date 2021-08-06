@@ -24,12 +24,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Amplitude: 0.38
-    - _Frequency: 2
+    - _Amplitude: 0.61
+    - _Frequency: 2.62
     - _Glossiness: 0.5
     - _Metallic: 0
     - _Speed: 55.3
-    - _TintAmount: 0.22
+    - _TintAmount: 0.126
     m_Colors:
     - _Color: {r: 0.6226415, g: 0.20206477, b: 0.20206477, a: 1}
     - _ColorA: {r: 0, g: 0.07273067, b: 0.8666667, a: 1}
